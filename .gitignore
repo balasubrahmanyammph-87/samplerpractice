@@ -1,0 +1,12 @@
+@"
+# R output datasets
+*.rds
+
+# R workspace files
+.RData
+.Rhistory
+
+# Temporary files
+*.tmp
+*.log
+"@ | Set-Content .gitignore
