@@ -39,7 +39,7 @@ ipadmin<-tribble(
 "CSG001","1008","WEEK 3","500","11/JUL/2010","9:20","2","mL","","3199027",
 )
 
-
+saveRDS(ipadmin,"D:/R trainings/SampleRpractice/SampleProject1/Rawdatasets/OUTPUTS/ipadmin.rds")
 
 eos<-tribble(
 ~study,~pt,~eoscat,~eotype,~eostdt_raw,~eoterm,
